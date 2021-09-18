@@ -18,7 +18,7 @@ document.addEventListener("click", function(){
             clearInterval(countDown)
             beep.play()
             setInterval(() => {
-                timer.innerHTML = "3"
+                timer.innerHTML = "30"
                 this.location.reload()
             }, 3000)
         }
